@@ -36,7 +36,7 @@ COMMAND_SUFFIX = if PLATFORM is Platform.WINDOWS then '.cmd' else ''
 
 # Constants
 PUBLIC_JS = "bin"
-APP_JS = "#{PUBLIC_JS}gamelib.js"
+APP_JS = "#{PUBLIC_JS}#{SLASH}gamelib.js"
 VENDOR_JS = "#{PUBLIC_JS}#{SLASH}vendor.js"
 SRC_DIR = ".#{SLASH}src"
 VENDOR_DIR = ".#{SLASH}vendor"
